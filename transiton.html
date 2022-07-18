@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .model {
+            display: flex;
+            margin: 300px;
+
+
+        }
+
+        .box {
+            margin-left: 60px;
+
+            height: 100px;
+            width: 100px;
+            border: 2px solid red;
+            background-color: aqua;
+            transition: width 2s, ease height 2s, transform 2s;
+        }
+
+        .box:hover {
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            background-color: aqua;
+            transform: rotate(50060deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="model">
+            <div class="box">
+                <h4>Transition</h4>
+            </div>
+            <div class="box">
+                <h4>Transition</h4>
+            </div>
+            <div class="box">
+                <h4>Transition</h4>
+            </div>
+            <div class="box">
+                <h4>Transition</h4>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>
